@@ -1,5 +1,11 @@
 # Writulos Auto-Docs — GitHub Action
 
+> **This Action has moved to [writulos/scribe-action](https://github.com/writulos/scribe-action).**
+> Use `uses: writulos/scribe-action@v1`: it adds doc-drift checks, the `pr` and
+> `comment` modes and a spend cap, and is the version Writulos Scribe maintains.
+> This repository is no longer updated; its existing tags keep working.
+
+
 Automatically generate **markdown documentation** for every changed code file in your repository, powered by [Writulos](https://writulos.com).
 
 - **On push to main/master** → docs are committed directly to your `docs/` folder by the Writulos Bot
